@@ -1,3 +1,87 @@
 .App {
   text-align: center;
 }
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+/* .container-logo{
+ width: auto;
+  height: 20px; 
+} */
+.logo {
+  height: 20px;
+  padding: 14px 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+header {
+  text-align: center;
+  background-color: #111;
+  padding: 10px 0px;
+}
+
+h1 {
+  color: white;
+}
+
+.Cities {
+  background-image: url("https://images.unsplash.com/photo-1528872042734-8f50f9d3c59b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+  padding: 40px 0px;
+}
+/* City component styling  */
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.img-card {
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.city-img {
+  max-width: 50px;
+  max-height: 10px;
+}
+
+.Cities-city {
+  margin: 0px;
+  width: 10%;
+}
