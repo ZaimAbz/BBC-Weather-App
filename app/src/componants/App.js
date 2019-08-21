@@ -1,13 +1,20 @@
-import React from "react";
-
+import React, { Component } from "react";
+import Cities from "./Cities";
+import Nav from "./Nav";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Weather app</h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="main">
+        <Nav />
+        
+        <div>
+          <Cities />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
