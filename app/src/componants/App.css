@@ -45,7 +45,7 @@ header {
   padding: 10px 0px;
 }
 
-h1 {
+.header {
   color: white;
 }
 
@@ -84,4 +84,8 @@ h1 {
 .Cities-city {
   margin: 0px;
   width: 10%;
+}
+
+.card-title{
+  color: black;
 }

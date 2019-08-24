@@ -28,7 +28,7 @@ class Nav extends Component {
           </nav>
         </div>
         <header>
-          <h1>Weather App</h1>
+          <h1 className="header">Weather App</h1>
         </header>
       </div>
     );
