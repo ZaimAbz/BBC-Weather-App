@@ -6,10 +6,7 @@
   display: flex;
   justify-content: space-between;
 }
-/* .container-logo{
- width: auto;
-  height: 20px; 
-} */
+
 .logo {
   height: 20px;
   padding: 14px 16px;
@@ -93,9 +90,7 @@ header {
   width: 10%;
 }
 
-.card-title {
- 
-}
+
 .text-card{
   width:200px;
     margin: 20px;
@@ -105,14 +100,16 @@ header {
   background-color: #79A0AF;
   }
 
+  /* media quiry for larg screen less than 1280px width*/
+
 @media screen and (max-width: 1280px) {
   .Cities {
     display: flex;
     flex-wrap: wrap;
   }
 }
-
-@media screen and (max-width: 800px) {
+/* media quiry for larg screen less than 800px width*/
+@media screen and (max-width: 1240px) {
   .Cities {
     display: flex;
     flex-direction: column;
@@ -128,6 +125,7 @@ header {
   }
 
 }
+/* media quiry for larg screen less than 600px width*/
 @media screen and (max-width: 600px) {
   .Cities {
     display: flex;
