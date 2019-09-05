@@ -12,7 +12,7 @@ you must install [yarn](https://yarnpkg.com/lang/en/docs/install)
 
 ## Before running
 
-you have to add the .env file and the Api kye to it under the name of REACT_APP_BBC_WEATHER
+you have to add the `app/.env` file and the Api kye to it under the name of REACT_APP_BBC_WEATHER
 
 ## Run
 
