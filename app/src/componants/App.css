@@ -109,7 +109,7 @@ header {
   }
 }
 /* media quiry for larg screen less than 800px width*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1240px) {
   .Cities {
     display: flex;
     flex-direction: column;
